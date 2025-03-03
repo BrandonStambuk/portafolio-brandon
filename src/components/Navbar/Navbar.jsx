@@ -9,7 +9,9 @@ export const Navbar = () => {
         <a className={styles.title} href="/">Portfolio</a>
         <div className={styles.menu}>
         <img className={styles.menuBtn} src={menuOpen ? menuIcon:closeMenuIcon} alt="menu"
-          onClick={()=>{setMenuOpen(!menuOpen)}}/>
+          onClick={()=>{setMenuOpen(!menuOpen)
+            console.log("el menu esta "+ menuOpen);
+          }}/>
 
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=>{setMenuOpen(false)}}>
                 <li>
