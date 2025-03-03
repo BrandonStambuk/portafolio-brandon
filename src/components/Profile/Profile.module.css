@@ -25,14 +25,16 @@
     margin-bottom: 33px;
     font-family: var(--font-roboto);
     background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 }
 
 .description{
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    text-justify: auto;
 
 }
 
@@ -50,7 +52,11 @@
 }
 
 .ProfileImg{
-    width: 50%;
+    width: 40%;
+    border-radius: 100%;
+    -webkit-box-shadow: -3px 17px 45px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 17px 45px 0px rgba(0,0,0,0.75);
+    box-shadow: -3px 17px 45px 0px rgba(0,0,0,0.75);
     z-index: 1;
     animation-name: floating;
     animation-duration: 3s;

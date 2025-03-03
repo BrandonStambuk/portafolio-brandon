@@ -8,10 +8,11 @@ export const Navbar = () => {
     return <nav className={styles.navbar}>
         <a className={styles.title} href="/">Portfolio</a>
         <div className={styles.menu}>
-        <img className={styles.menuBtn} src={menuOpen ? menuIcon:closeMenuIcon} alt="menu"
-          onClick={()=>{setMenuOpen(!menuOpen)
-            console.log("el menu esta "+ menuOpen);
-          }}/>
+        <img className={styles.menuBtn} 
+    src={menuOpen ? closeMenuIcon : menuIcon} 
+    alt="menu"
+    onClick={() => setMenuOpen(!menuOpen)}
+/>
 
             <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=>{setMenuOpen(false)}}>
                 <li>
@@ -27,7 +28,7 @@ export const Navbar = () => {
 
                 </li>
                 <li>
-                    <a href="#contact">Contacto</a>
+                    <a href="#contact">Contact</a>
 
                 </li>
             </ul>
