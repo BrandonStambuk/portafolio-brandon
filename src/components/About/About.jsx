@@ -27,7 +27,7 @@ export const About = () => {
                         <h3>
                             Backend developer
                         </h3>
-                        <p> Im a backend developer with Experience</p> 
+                        <p>Im a backend developer with experience in Laravel, using the MVC architecture to provide a scalable and clean structure.</p> 
                     </div>
                 </li>
             </ul>

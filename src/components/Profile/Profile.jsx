@@ -1,6 +1,5 @@
 
 import ProfileImage from "../../assets/hero/profile.png";
-
 import styles from "./Profile.module.css";
 export const Profile = () => {
     return <section className={styles.container}>

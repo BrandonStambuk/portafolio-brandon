@@ -34,7 +34,8 @@
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
-    text-justify: auto;
+    text-align: justify;
+    width: 75%;
 
 }
 
@@ -96,7 +97,16 @@
 }
 
 @media screen and (max-width: 830px){
-   
+    .ProfileImg{
+        width: 80%; 
+        height: auto; 
+        max-width: 400px; 
+    }
+    .description {
+        width: 90%; 
+        font-size: 24px; 
+        margin-bottom: 30px; 
+    }
     .container{
         flex-direction: column-reverse;
 

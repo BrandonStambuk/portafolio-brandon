@@ -14,8 +14,10 @@ const history = [
         "image": umssLogo,
         "University": "Universidad Mayor de San Simon",
         "Degree": "Post graduate's degree",
-        "Field of study": "Computer Science",
-        "startYear":"2025-actuality"
+        "Field of study": "Comercial Software Quality Engineering",
+        "startYear":2025,
+        "endYear":"actuality"
+
     }
 ];
 export default history;
