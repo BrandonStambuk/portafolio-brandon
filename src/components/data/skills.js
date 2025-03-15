@@ -10,7 +10,8 @@ const skills = [
     { title: "React", imageUrl: reactIcon },
     { title: "Node", imageUrl: nodeIcon },
     { title: "Figma", imageUrl: figmaIcon },
-    { title: "Laravel", imageUrl: LaravelIcon }
+    { title: "Laravel", imageUrl: LaravelIcon },
+    
 ];
 
 export default skills;
